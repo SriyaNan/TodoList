@@ -4,8 +4,7 @@ import Todolist from "./components/Todolist"
 
 function App() {
 
-  const [todos, setTodos] = useState([
-  ])
+  const [todos, setTodos] = useState([])
   const [todoValue, setTodoValue] = useState('')
 
   function persistData(newList){
